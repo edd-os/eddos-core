@@ -1,0 +1,4 @@
+. "${XDG_DATA_HOME:-$HOME/.local/share}/eddos/eddos.sh"
+
+transparent_remove neovim
+transparent_remove_root_file "/usr/local/bin/vim"
