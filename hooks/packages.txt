@@ -7,3 +7,4 @@ NetworkManager-wifi
 NetworkManager-tui
 lm_sensors
 openssh
+procps-ng
