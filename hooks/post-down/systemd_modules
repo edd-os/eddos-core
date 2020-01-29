@@ -1,4 +1,9 @@
 #!/bin/sh
+local init="$(ps -p 1 -o comm=)"
+if [ "$init" != "systemd" ]; then
+        exit 0
+fi
+
 # Disable time server synchronisation
 sudo systemctl disable systemd-timesyncd.service
 sudo systemctl stop systemd-timesyncd.service

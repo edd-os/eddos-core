@@ -1,3 +1,4 @@
 #!/bin/sh
+. "${XDG_DATA_HOME:-$HOME/.local/share}/eddos/eddos.sh"
 transparent_remove plymouth
 transparent_regenerate_initramfs
