@@ -1,0 +1,3 @@
+#!/bin/sh
+transparent_remove plymouth
+transparent_regenerate_initramfs
