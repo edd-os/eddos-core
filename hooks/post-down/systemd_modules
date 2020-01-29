@@ -1,0 +1,4 @@
+#!/bin/sh
+# Disable time server synchronisation
+sudo systemctl disable systemd-timesyncd.service
+sudo systemctl stop systemd-timesyncd.service
