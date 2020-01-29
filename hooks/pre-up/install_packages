@@ -3,4 +3,4 @@
 
 while read package; do
 	transparent_install "$package"
-done < "${XDG_CONFIG_HOME:-$HOME/.config}/eddos/eddos-core/hooks/packages.txt"
+done < "../packages.txt"
