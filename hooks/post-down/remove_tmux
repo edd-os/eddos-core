@@ -1,0 +1,5 @@
+#!/bin/sh
+. "${XDG_DATA_HOME:-$HOME/.local/share}/eddos/eddos.sh"
+
+transparent_remove tmux
+transparent_remove_root_file "/usr/local/bin/tmux"

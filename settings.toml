@@ -1,1 +1,0 @@
-target = [ { path = "${XDG_CONFIG_HOME}" }, { path = "${HOME}/.config" } ]
