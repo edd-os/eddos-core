@@ -3,4 +3,4 @@
 
 while read package; do
 	transparent_install "$package"
-done < "$MCM_DOTFILES_DIR/edd-os:eddos-core/hooks/packages.txt"
+done < "$MCM_DOTFILES_DIR/eddos/core/hooks/packages.txt"
