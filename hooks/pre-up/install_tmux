@@ -1,4 +1,4 @@
 #!/bin/sh
 . "${XDG_DATA_HOME:-$HOME/.local/share}/eddos/eddos.sh"
 transparent_install tmux
-transparent_make_root_executable "/usr/local/bin/tmux" '#!/bin/sh\ntmux -f ${XDG_CONFIG_HOME:-$HOME/.config}/tmux/config "\$@"'
+transparent_make_root_executable "/usr/local/bin/tmux" '#!/bin/sh\ntmux -f ${XDG_CONFIG_HOME:-$HOME/.config}/tmux/config "$@"'

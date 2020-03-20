@@ -1,7 +1,7 @@
 #!/bin/sh
 . "${XDG_DATA_HOME:-$HOME/.local/share}/eddos/eddos.sh"
 transparent_install neovim
-transparent_make_root_executable "/usr/local/bin/vim" '#!/bin/sh\nnvim "\$@"'
+transparent_make_root_executable "/usr/local/bin/vim" '#!/bin/sh\nnvim "$@"'
 
 # Install vim-plug plugin manager
 transparent_curl "${XDG_DATA_HOME:-$HOME/.local/share}/nvim/site/autoload/plug.vim" \
