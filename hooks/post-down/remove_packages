@@ -3,5 +3,5 @@
 
 while read package; do
 	transparent_remove "$package"
-done < "$MCM_DOTFILES_DIR/eddos/core/hooks/packages.txt"
+done < "$MCM_PACKAGES_DIR/eddos/core/hooks/packages.txt"
 
