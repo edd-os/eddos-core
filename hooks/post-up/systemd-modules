@@ -1,5 +1,5 @@
 #!/bin/sh
-local init="$(ps -p 1 -o comm=)"
+init="$(ps -p 1 -o comm=)"
 if [ "$init" != "systemd" ]; then
 	exit 0
 fi
